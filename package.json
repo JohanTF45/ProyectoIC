@@ -1,8 +1,8 @@
 {
-  "name": "demo-app",
+  "name": "web",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mehulmpt.github.io/demo-app",
+  "homepage": "http://192.168.0.12:85/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.1",
