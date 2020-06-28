@@ -2,7 +2,7 @@ language: node_js
 node_js:
 - "12.14.0"
 #before_install: cd E:\Docker\ProyectoIC
-cache: npm
+cache: #npm
 #directories:
 #- E:\Docker\ProyectoIC\node_modules
 
@@ -10,9 +10,9 @@ install:
 - npm install
 
 script:
-- npm test
-- npm run build
-#run-script build
+#- npm test
+#- npm run build
+- npm run-script build
 
 deploy:
 provider: pages
