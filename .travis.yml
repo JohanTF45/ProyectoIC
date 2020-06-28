@@ -1,7 +1,7 @@
 language: node_js
 node_js:
 - "12.14.0"
-before_install: cd E:\Docker\ProyectoIC
+before_install: cd .\ProyectoIC
 cache: npm
 #directories:
 #- E:\Docker\ProyectoIC\node_modules
