@@ -10,14 +10,15 @@ install:
 - npm install
 
 script:
-#- npm test
-#- npm run build
-- npm run-script build
+- npm test
+- npm run build
+#- npm run-script build
 
 deploy:
 provider: pages
 skip_cleanup: true
 github_token: $GITHUB_TOKEN
+#ed7ac1259a00e5d1d5ff424861e9cb2599816ea1
 local_dir:. ProyectoIC
 on:
 branch: master
