@@ -1,6 +1,6 @@
-language: html
-html:
-- 5.2
+language: node_js
+node_js:
+- "13.12.0"
 #before_install: cd E:\Docker\ProyectoIC
 cache: npm
 #directories:
@@ -10,7 +10,9 @@ install:
 - npm install
 
 script:
-- npm run-script build
+- npm test
+- npm run build
+#run-script build
 
 deploy:
 provider: pages
