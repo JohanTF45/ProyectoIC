@@ -1,6 +1,6 @@
-language: node_js
-node_js:
-- 13.12.0
+language: html
+html:
+- 5.2
 #before_install: cd E:\Docker\ProyectoIC
 cache: npm
 #directories:
