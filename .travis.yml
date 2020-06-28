@@ -10,9 +10,9 @@ install:
 - npm install
 
 script:
-- npm test
-- npm run build
-#- npm run-script build
+#- npm test
+#- npm run build
+- npm run-script build
 
 deploy:
 provider: pages
