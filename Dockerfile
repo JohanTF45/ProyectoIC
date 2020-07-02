@@ -8,4 +8,4 @@ RUN wget https://github.com/JohanTF45/ProyectoIC/archive/master.zip
 RUN unzip master.zip
 RUN cp -a /ProyectoIC-master/* var/www/html
 EXPOSE 80
-CMD /usr/sbin/apache2ctl -D FOREGROUND
+ENTRYPOINT  /usr/sbin/apache2ctl -D FOREGROUND
