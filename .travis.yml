@@ -1,5 +1,4 @@
-Language: java
-Jdk: oraclejdk8
+Language: httpd
 
 deploy:
 provider: pages
