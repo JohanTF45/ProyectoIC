@@ -1,4 +1,4 @@
-FROM ubuntu:20.10
+FROM httpd:2.4
 RUN apt-get update
 RUN apt-get install -y tzdata
 RUN apt-get -y install apache2
