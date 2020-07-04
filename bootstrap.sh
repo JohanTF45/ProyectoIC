@@ -1,6 +1,6 @@
 set -e
-BASE_IMAGE="registry"
-REGISTRY="registry.hub.docker.com"
+BASE_IMAGE="johantf45/proyectoic"
+REGISTRY="johantf45/proyectoic.hub.docker.com"
 IMAGE="$REGISTRY/$BASE_IMAGE"
 CID=$(docker ps | grep $IMAGE | awk '{print $1}')
 docker pull $IMAGE
