@@ -1,4 +1,6 @@
-Language: httpd
+language: php
+php:
+  - 7.1.9
 
 deploy:
 provider: pages
