@@ -14,9 +14,9 @@ do
     echo "Running:" $RUNNING
     if [ "$RUNNING" != "$LATEST" ];then
         echo "upgrading $NAME"
-        stop docker-$NAME
-        docker rm -f $NAME
-        start docker-$NAME
+        stop docker-cont2
+        docker rm -f cont2
+        start docker-cont2
     else
         echo "$NAME up to date"
     fi
