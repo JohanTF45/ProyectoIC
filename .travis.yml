@@ -7,7 +7,7 @@ language: php
 #- E:\Docker\ProyectoIC\node_modules
 
 #install:
-- npm install
+#- npm install
 
 #script:
 #- npm run-script build
